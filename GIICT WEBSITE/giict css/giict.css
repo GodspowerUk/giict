@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* margin: 0.5rem; */
+    font-size: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.g2{
+    color: rgb(112, 4, 4);
+}
+.g1{
+    color: rgb(191, 191, 207);
+}
+h1{
+    font-size: 2.5rem;
+    /* padding: 1rem; */
+}
+.nav-bar {
+    display: flex;
+    /* padding: 1rem; */
+    justify-content: space-between;
+    align-items: center;
+     background-color: rgb(85, 50, 238);
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    color:#fff;
+}
+.nav-bar a{
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1.3rem;
+    text-decoration: none;
+    color: #fff;
+
+}
+.nav-bar search{
+}
+.nav-bar li:hover{
+background-color: red;
+}
+.nav-bar li:hover a{
+    color:#fff;
+}
